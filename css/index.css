@@ -93,7 +93,8 @@ html, body {
     display: inline-block;
     position: absolute;
     width: 20%;
-    right: 15%;
+    right: 16%;
+    text-align: right; 
     color: white;
 }
 
