@@ -1,0 +1,15 @@
+/*Clearance Page*/
+#info_box {
+	display: block; 
+    padding: 0px 30px 0px 10px;
+    background-color: lightgrey;
+    border: 5px solid #4f4f4f; 
+    position: relative; 
+    top: 50px; 
+    margin: auto;
+    margin-bottom: 100px; 
+    width: 70%;
+	height: 900px;
+    padding: 10px; 
+    overflow: auto;
+}
