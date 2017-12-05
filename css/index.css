@@ -34,13 +34,27 @@ html, body {
 	margin: auto;
 }
 
+#brand {
+    height: 140px;
+    top: 0;
+    background: #fafafa;
+    z-index: 10px;
+}
+
+#brand img {
+    margin-top: 15px; 
+    margin-left: 38%;
+}
+
 #topnav {
-    position: fixed;
+    position: sticky;
     left:0;
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color: lightgrey;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+    background-color: #fafafa;
     height:35px;
     z-index: 100;
 }
@@ -68,7 +82,7 @@ html, body {
 #topnav input[type=text] {
     float: right;
     padding: 0px;
-    border: none;
+    border: 1px solid lightgrey;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
@@ -140,7 +154,7 @@ h1 {
 /*    z-index: 15; */
 }
 
-img {
+.box_img img {
     border-radius: 30px;
 
 }
