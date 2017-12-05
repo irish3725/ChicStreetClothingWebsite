@@ -1,3 +1,12 @@
+html, body {
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    margin: 0px; 
+    padding: 0px; 
+}
+
 #wrapper {
 	background-color: E3E2E3;
     background-image: url("../images/WhiteWood.jpg");
@@ -13,15 +22,6 @@
     padding: 0px;
     z-index: 10; 
     overflow: auto;
-}
-
-#logo {
-	display:block;
-	position: relative;
-	top: 20px;
-	height: 150px;
-	width: 450px;
-	margin: auto;
 }
 
 #brand {
