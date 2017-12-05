@@ -10,7 +10,7 @@ html, body {
 
 #wrapper {
 	background-color: E3E2E3;
-    background-image: url("../images/ChicStreet.png");
+    background-image: url("../images/WhiteWood.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     left: 0px;
@@ -107,17 +107,48 @@ html, body {
     color: white;
 }
 
-.box_text {
+.box_text_background {
     display: inline-block;
     position: absolute;
-    width: 50%;
-    padding: 0px 30px 0px 10px;
-    background-color: lightgrey;
-    border: 5px solid #4f4f4f;  
+    width: 330px;
+    height: 100px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -30%);
+    padding: 0;
+    background: grey;
+    opacity: .5;
+    z-index: 10;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+/*    -webkit-text-stroke: 1px white; */
+    color: #ffc0cb;
+    text-align: center;
+    z-index: 11;
+}
+
+.box_img {
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+/*    z-index: 15; */
+}
+
+img {
+    border-radius: 30px;
+
 }
 
 .box_button {
-    
+    top: 35%;
+    margin-top: -100px;
+    border-radius: 25px; 
     display: inline-block; 
     background-color: grey;
     border: none;
@@ -127,11 +158,11 @@ html, body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    color: pink;
     margin: 20px;
     position: absolute;
     right: 0;
-    top: 15%; 
-    width:120px;
+    width: 120px;
 }
 
 .box {
@@ -140,10 +171,12 @@ html, body {
     top: 100px; 
     margin: auto;
     margin-bottom: 100px; 
-    width: 70%;
+    width: 60%;
     padding: 10px; 
-    height: 175px;
+    height: 425px;
     overflow: auto;
+    background-color: transparent;
+/*    border: 5px solid #4f4f4f;  */
 }
 
 /*Tops page*/
