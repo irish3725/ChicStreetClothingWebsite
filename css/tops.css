@@ -15,6 +15,7 @@
 
 #wrapper {
 	background-image: url("../images/mosaicBackground.jpg");
+	background-size: 100%;
 	background-color: lightgrey;
 }
 .category {
