@@ -98,6 +98,7 @@
 #expandButton:hover {
 	background-color: #4f4f4f;
     color: white;
+    color: var(--color-2);
 }
 
 h2 {

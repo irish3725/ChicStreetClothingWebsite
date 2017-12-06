@@ -48,12 +48,18 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    color: var(--color-2);
+    font-size: 17px;
+    color: var(--color-4);
     margin: 20px;
     position: absolute;
     right: 0;
     width: 10%;
+}
+
+.boxButton:hover {
+    background-color: #4f4f4f;
+    color: white;
+    color: var(--color-2);
 }
 
 .boxButton p {
