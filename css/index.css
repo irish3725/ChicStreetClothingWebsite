@@ -33,7 +33,8 @@ h1 {
 
 .boxImg img {
     border-radius: 30px;
-
+    width: 400px;
+    height: 400px;
 }
 
 .boxButton {
