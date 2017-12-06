@@ -58,7 +58,7 @@ html, body {
     border-top: 2px solid darkgrey;
     border-bottom: 2px solid darkgrey;
     background-color: #fafafa;
-    color: var(--color-2);
+    color: black;
     height:35px;
     z-index: 100;
     font-family: 'Raleway','Montserrat', sans-serif;
@@ -81,7 +81,7 @@ html, body {
     display: block;
     text-align: center;
     padding: 8px 16px;
-    color: var(--color-2);  
+    color: black;  
     text-decoration: none;
     font-size: 17px;
 }
@@ -96,7 +96,7 @@ html, body {
 
 #topnav a.active {
     background-color: darkgrey;
-    color: var(--color-3);
+    color: var(--color-2);
     font-weight: 900; 
     font-family: 'Ubuntu Condensed', sans-serif;
 }

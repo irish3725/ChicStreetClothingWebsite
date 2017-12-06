@@ -13,7 +13,9 @@
 
 /*Clearance Page*/
 #infoBox {
-	display: block; 
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
     padding: 0px 30px 0px 10px;
     background-color: rgba(242, 241, 242, 0.5);
     position: relative; 
