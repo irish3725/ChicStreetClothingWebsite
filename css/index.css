@@ -11,20 +11,20 @@ h1 {
     z-index: 11;
 }
 
-.box_img {
+.boxImg {
     display: inline-block;
     position: absolute;
     padding: 0;
 /*    z-index: 15; */
 }
 
-.box_img img {
+.boxImg img {
     border-radius: 30px;
 
 }
 
-.box_button {
-    top: 35%;
+.boxButton {
+    top: 30%;
     margin-top: -100px;
     border-radius: 25px; 
     display: inline-block; 
@@ -43,16 +43,16 @@ h1 {
     width: 120px;
 }
 
-.box_button p {
+.boxButton p {
     font-family: 'Railway', sans-serif;
 }
 
-.box_button strong {
+.boxButton strong {
     font-size: 20px;
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.box_text_background {
+.boxTextBackground {
     display: inline-block;
     position: absolute;
     width: 330px;
@@ -66,7 +66,7 @@ h1 {
     z-index: 10;
 }
 
-#box_background {
+.boxBackground {
     z-index: 5;
     display: flex;
     flex-direction: column;
@@ -94,10 +94,4 @@ h1 {
     z-index: 8;
 /*    border: 5px solid #4f4f4f;  */
 }
-
-
-
-
-
-
 

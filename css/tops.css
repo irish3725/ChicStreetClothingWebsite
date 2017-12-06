@@ -19,25 +19,25 @@
 	
 }
 
-.item_frame {
+.itemFrame {
 	margin: 10px 0 10px 10px;
 	display: inline-block;
 	position: relative;
 }
 
-.item_frame img:hover {
+.itemFrame img:hover {
 	border: 1px solid #FFFB0F;
 	height: 198px;
 	width: 198px;
 }
 
-.item_frame img {
+.itemFrame img {
 	height: 200px;
 	width: 200px;
 	border-radius: 30px;
 }
 
-#expand_button {
+#expandButton {
 	display: block;
 	border: 1px solid #4f4f4f;
 	float: left;
@@ -50,7 +50,7 @@
 	margin: auto;
 }
 
-#expand_button:hover {
+#expandButton:hover {
 	background-color: #4f4f4f;
     color: white;
 }

@@ -1,5 +1,5 @@
 /*Clearance Page*/
-#info_box {
+#infoBox {
 	display: block; 
     padding: 0px 30px 0px 10px;
     background-color: rgba(242, 241, 242, 0.5);
@@ -13,20 +13,20 @@
     overflow: auto;
 }
 
-#info_box_text {
+#infoBoxText {
 	margin: auto;
 	padding: 0;
 	display: block;
 	width: 90%;
 }
 
-#info_box p{
+#infoBox p{
 	display: inline-block;
 	vertical-align: top;
 	width:75%
 }
 
-#info_box img{
+#infoBox img{
 	display: inline-block;
 }
 
