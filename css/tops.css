@@ -33,17 +33,41 @@
 	position: relative;
 }
 
-.itemFrame img:hover {
+.itemFrame img {
+	height: 200px;
+	width: 200px;
+	border-radius: 30px;
+	transition: .3s ease;
+}
+
+.itemInfo {
+	transition:.3s ease;
+	position: absolute;
+	bottom: 0px;
+    right: 0px;
+	opacity: 0;
+	background-color: #4f4f4f;
+	height: 40px;
+	width: 80px;
+	z-index: 20;
+	border-radius: 50px 15px;
+	font-family: 'Railway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	color: gold;
+}
+
+.itemFrame:hover img {
 	border: 1px solid #FFFB0F;
 	height: 198px;
 	width: 198px;
 	opacity: 0.3;
 }
 
-.itemFrame img {
-	height: 200px;
-	width: 200px;
-	border-radius: 30px;
+.itemFrame:hover .itemInfo {
+	opacity: 1;
 }
 
 #expandButton {
