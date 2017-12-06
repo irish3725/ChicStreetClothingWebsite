@@ -1,9 +1,14 @@
 :root {
-    --color-1: #b26e78;
-    --color-2: #fffdcf;
-    --color-3: #ffb6c1;
-    --color-4: #7db4cc;
-    --color-5: #76a0b2;
+    /* dark purple */
+    --color-1: #a56eb2;
+    /* dark gold */
+    --color-2: #b59b5b;
+    /* light purple */
+    --color-3: #f0b6ff;
+    /* light seaweed */
+    --color-4: #7dccb0;
+    /* dark seaweed */
+    --color-5: #76b29d;
 }
 
 html, body {
@@ -53,6 +58,7 @@ html, body {
     border-top: 2px solid darkgrey;
     border-bottom: 2px solid darkgrey;
     background-color: #fafafa;
+    color: var(--color-2);
     height:35px;
     z-index: 100;
     font-family: 'Raleway','Montserrat', sans-serif;
@@ -73,9 +79,9 @@ html, body {
 #topnav a {
     float: left;
     display: block;
-    color: black;
     text-align: center;
     padding: 8px 16px;
+    color: var(--color-2);  
     text-decoration: none;
     font-size: 17px;
 }
@@ -85,13 +91,12 @@ html, body {
     border-right: 2px solid darkgrey;
     margin-left: -2px;
     margin-right: -2px; 
-    color: black;
     z-index: 20;
 }
 
 #topnav a.active {
     background-color: darkgrey;
-    color: lightpink;
+    color: var(--color-3);
     font-weight: 900; 
     font-family: 'Ubuntu Condensed', sans-serif;
 }
@@ -119,6 +124,7 @@ html, body {
     overflow: hidden;
     background-color: #4f4f4f;
     margin-top: 170px;
+    color: var(--color-2);
 }
 
 #about {
@@ -126,7 +132,6 @@ html, body {
     position: absolute;
     width: 20%;
     left: 15%; text-align: left; 
-    color: white; 
 }
 
 #social {
@@ -135,7 +140,6 @@ html, body {
     width: 20%;
     right: 15%;
     text-align: right; 
-    color: white;
 }
 
 #social img {
