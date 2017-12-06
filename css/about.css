@@ -2,13 +2,18 @@
     /* dark purple */
     --color-1: #a56eb2;
     /* dark gold */
-    --color-1: #d6b76b;
+    --color-2: #d6b76b;
     /* light purple */
-    --color-1: #f0b6ff;
+    --color-3: #f0b6ff;
     /* light seeweed */
-    --color-1: #7dccb0;
+    --color-4: #7dccb0;
     /* dark seaweed */
-    --color-1: #76b29d;
+    --color-5: #76b29d;
+}
+
+#wrapper {
+    background: lightgrey;
+    background: white;
 }
 
 /*About Page*/
@@ -21,18 +26,44 @@
     position: relative; 
     top: 50px; 
     margin: auto;
-    margin-bottom: 100px; 
+    padding-bottom: 500px;
+    margin-top: 70px; 
+    margin-bottom: 0px; 
     width: 70%;
 	max-width: 1000px;
     padding: 10px; 
     overflow: auto;
+    font-size: 12pt;
 }
 
 #infoBoxText {
 	margin: 5%;
 	padding: 5px;
+    margin-top: -10%;
 	display: block;
 	width: 90%;
+}
+
+#infoBoxText h1, h2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: var(--color-2);
+}
+
+#infoBoxText p {
+    font-family: 'Railway', sans-serif;
+    color: black;
+}
+
+.infoBoxPre {
+    margin: 5%
+    
+}
+
+.infoBoxBio {
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 70px;
 }
 
 #infoBox p{
