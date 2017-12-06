@@ -1,3 +1,11 @@
+:root {
+    --color-1: #b26e78;
+    --color-1: #fffdcf;
+    --color-1: #ffb6c1;
+    --color-1: #7db4cc;
+    --color-1: #76a0b2;
+}
+
 /*Clearance Page*/
 #infoBox {
 	display: block; 

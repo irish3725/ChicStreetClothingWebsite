@@ -1,3 +1,11 @@
+:root {
+    --color-1: #b26e78;
+    --color-2: #fffdcf;
+    --color-3: #ffb6c1;
+    --color-4: #7db4cc;
+    --color-5: #76a0b2;
+}
+
 /*Tops page*/
 .category {
 	display: block;
