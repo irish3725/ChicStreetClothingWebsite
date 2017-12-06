@@ -47,6 +47,7 @@ html, body {
     background-color: #fafafa;
     height:35px;
     z-index: 100;
+    font-family: 'Raleway','Montserrat', sans-serif;
 }
 
 #topnav img {
@@ -84,7 +85,8 @@ html, body {
     border-right: 2px solid darkgrey;
     background-color: darkgrey;
     color: lightpink;
-    font-weight: bold;
+    font-weight: 900; 
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 #topnav input[type=text] {
@@ -116,8 +118,7 @@ html, body {
     display: inline-block;
     position: absolute;
     width: 20%;
-    left: 20%;
-    text-align: left; 
+    left: 15%; text-align: left; 
     color: white; 
 }
 
@@ -125,7 +126,7 @@ html, body {
     display: inline-block;
     position: absolute;
     width: 20%;
-    right: 21%;
+    right: 15%;
     text-align: right; 
     color: white;
 }
