@@ -125,6 +125,7 @@ html, body {
     background-color: #4f4f4f;
     margin-top: 170px;
     color: var(--color-2);
+	font-family: 'Raleway','Montserrat', sans-serif;
 }
 
 #about {
@@ -132,6 +133,18 @@ html, body {
     position: absolute;
     width: 20%;
     left: 15%; text-align: left; 
+}
+
+#about a {
+	display: block;
+	text-decoration: none;
+	color: var(--color-2);
+	line-height: 20px;
+	width: auto;
+}
+
+#about a:hover {
+	color:var(--color-3);	
 }
 
 #social {
@@ -142,9 +155,19 @@ html, body {
     text-align: right; 
 }
 
-#social img {
-    position: relative;
+#social a{
+	position: relative;
     display: inline-block;
-    width: 41px;
+	width: 41px;
     height: 41px;
+	z-index: 20;
+}
+
+#social img {
+	width: 41px;
+    height: 41px;
+}
+
+#social img:hover {
+	opacity: 0.5;
 }
