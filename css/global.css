@@ -62,8 +62,6 @@ html, body {
 }
 
 #topnav a {
-    border-left: 2px solid #fafafa;
-    border-right: 2px solid #fafafa;
     float: left;
     display: block;
     color: black;
@@ -76,12 +74,13 @@ html, body {
 #topnav a:hover {
     border-left: 2px solid darkgrey;
     border-right: 2px solid darkgrey;
+    margin-left: -2px;
+    margin-right: -2px; 
     color: black;
+    z-index: 20;
 }
 
 #topnav a.active {
-    border-left: 2px solid darkgrey;
-    border-right: 2px solid darkgrey;
     background-color: darkgrey;
     color: lightpink;
     font-weight: bold;
