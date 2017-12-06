@@ -99,12 +99,13 @@
 #expandButton:hover {
 	background-color: #4f4f4f;
     color: white;
+    color: var(--color-2);
 }
 
 h2 {
 	margin: 100px 0 10px 0;
 	display: block;
-	font-family: 'Railway', sans-serif;
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 30px;
 	color: var(--color-2);
 }
