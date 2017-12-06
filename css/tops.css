@@ -1,9 +1,14 @@
 :root {
-    --color-1: #b26e78;
-    --color-2: #fffdcf;
-    --color-3: #ffb6c1;
-    --color-4: #7db4cc;
-    --color-5: #76a0b2;
+    /* dark purple */
+    --color-1: #a56eb2;
+    /* dark gold */
+    --color-2: #d6b76b;
+    /* light purple */
+    --color-3: #f0b6ff;
+    /* light seaweed */
+    --color-4: #7dccb0;
+    /* dark seaweed */
+    --color-5: #76b29d;
 }
 
 /*Tops page*/
